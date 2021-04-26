@@ -1,1 +1,3 @@
-print("Hello world.!!")
+ade = "boy"
+
+print(ade)
