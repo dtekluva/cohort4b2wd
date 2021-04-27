@@ -1,0 +1,2 @@
+ade = 'Boy'
+print(ade)
