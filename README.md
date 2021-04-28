@@ -5,4 +5,6 @@ Think like a programmer - https://www.freecodecamp.org/news/how-to-think-like-a-
 PYTHON BASICS: https://www.pythontutorial.net/
 
 w3resource - https://www.w3resource.com/python-exercises/python-basic-exercises.php
-update-just-for-pull
+
+Learn more about datetime - https://www.programiz.com/python-programming/datetime/strftime
+
