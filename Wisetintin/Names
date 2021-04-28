@@ -1,0 +1,6 @@
+First_name = ("first Name")
+last _name = (" last name")
+
+
+print (f"my name is: {First_name} {last_name}")
+
