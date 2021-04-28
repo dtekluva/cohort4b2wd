@@ -8,4 +8,9 @@ w3resource - https://www.w3resource.com/python-exercises/python-basic-exercises.
 
 Learn more about datetime - https://www.programiz.com/python-programming/datetime/strftime
 
+<<<<<<< HEAD
 ___________
+=======
+variables - https://realpython.com/python-variables/
+datatypes - https://realpython.com/python-data-types/
+>>>>>>> f614481d3a7f58cd8c37c26ce613b120b59094ed
