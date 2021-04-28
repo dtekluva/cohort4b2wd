@@ -1,2 +1,2 @@
-ade = 'Boy'
+ade = 'boy'
 print(ade)
