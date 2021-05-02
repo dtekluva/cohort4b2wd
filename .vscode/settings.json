@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 {
@@ -14,3 +15,8 @@
 }
 >>>>>>> 8ce0ffa97be260ed36fe3c8fc933bcced1ac0aa3
 >>>>>>> a48cb45350b0843a7c6d136c53f3e2a1ebb37132
+=======
+{
+    "python.pythonPath": "C:\\Users\\OWNER\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}
+>>>>>>> Stashed changes
