@@ -77,3 +77,10 @@ ralph = reversed(alph)
 
 for x in ralph:
   print(x)
+
+
+
+
+
+
+  https://www.w3schools.com/python/python_regex.asp

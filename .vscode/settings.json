@@ -1,7 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {} 
 =======
 {
     "python.pythonPath": "C:\\Users\\MahonePC\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
 }
 >>>>>>> 8ce0ffa97be260ed36fe3c8fc933bcced1ac0aa3
+=======
+{
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3"
+}
+>>>>>>> 3cf732de866c243dcfb5bd09b5134a97cd617ae1
