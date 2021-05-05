@@ -1,15 +1,5 @@
+x = int(input("Enter Dividen : "))
+y = int(input("Enter Divisor : "))
 
-# def myfunc1():
-#   x = "John"
-#   def myfunc2():
-#     nonlocal x
-#     x = "hello"
-#   myfunc2()
-#   return x
-
-# print(myfunc1())
-
-try:
-  print(x)
-except:
-  print("An exception occurred")
+def division_progm(x%y):
+    print(division_progm)
