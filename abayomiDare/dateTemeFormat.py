@@ -1,19 +1,45 @@
-import datetime
+# import datetime
 
 
-time_now = datetime.datetime.now()
+# time_now = datetime.datetime.now()
 
-print(time_now)
+# print(time_now)
 
-formatted_time = time_now.strftime("%A %b, %Y.  (%I%p)")
-print(formatted_time)
+# formatted_time = time_now.strftime("%A %b, %Y.  (%I%p)")
+# print(formatted_time)
 
-def myfunc(a):
-  return len(a)
+# def myfunc(a):
+#   return len(a)
 
-x = map(myfunc, ('apple', 'banana', 'cherry'))
+# x = map(myfunc, ('apple', 'banana', 'cherry'))
 
 
 
-#convert the map into a list, for readability:
-print(list(x))
+# #convert the map into a list, for readability:
+# print(list(x))
+# try:
+#   print(x)
+# except:
+#   print("An exception occurred"
+
+# x = 5
+# y = 2
+
+# if x < y:
+#     print('x is less than y')
+# elif x > y:
+#     print('x is greater than y')
+
+# x = ''
+
+# print(not x)
+# def myfunc(a):
+#   return len(a)
+
+# x = map(myfunc, ('apple', 'banana', 'cherry'))
+
+
+
+# #convert the map into a list, for readability:
+# print(list(x))
+

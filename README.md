@@ -10,7 +10,11 @@ Learn more about datetime - https://www.programiz.com/python-programming/datetim
 
 variables - https://realpython.com/python-variables/
 <<<<<<< HEAD
+<<<<<<< HEAD
 datatypes - https://realpython.com/python-data-types/
 =======
 datatypes - https://realpython.com/python-data-types/
 >>>>>>> 753c513d90bbe24658e2f5f53d3069ec6319a7ef
+=======
+datatypes - https://realpython.com/python-data-types/
+>>>>>>> f53c93f00882f84365fc913ba15016b0855c4a23
