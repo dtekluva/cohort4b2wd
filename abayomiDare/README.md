@@ -1,6 +1,10 @@
 My Blog post url:
 https://abayomidare.medium.com
 
+base simply mean things are moving in sequence of what ever the number is
+
+Keywords are predefined, reserved words used in programming that have special meanings to the compiler
+
 
 my view of keywords:
 
@@ -11,6 +15,12 @@ In Python everything is an object. When an object is said to be iterable, it mea
 
 An iterator is an object that contains a countable number of values.
 
+
+for i in range(9):
+  if i > 3:
+    break
+  print(i)
+
 else:
 The else keyword is used in conditional statements (if statements), and decides what to do if the condition is False.
 The else keyword can also be use in try...except blocks,
@@ -19,9 +29,14 @@ The else keyword can also be use in try...except blocks,
 not:
 The not keyword is a logical operator.
 The return value will be True if the statement(s) are not True, otherwise it will return False.
+x = False
+
+print(not x)
 
 try:
 The try keyword is used in try...except blocks. It defines a block of code test if it contains any errors.
+
+A function is a block of code which only runs when it is called.
 
 
 
@@ -62,6 +77,7 @@ x = next(mylist)
 print(x)
 
 range() 	Generates a range of integer values
+a particular order in which related things follow each other.
 The range() function is used to generate a sequence of numbers over time. At its simplest, it accepts an integer and returns a range object (a type of iterable).
 x = range(6)
 for n in x:

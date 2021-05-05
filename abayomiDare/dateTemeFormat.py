@@ -22,10 +22,24 @@
 # except:
 #   print("An exception occurred"
 
-x = 5
-y = 2
+# x = 5
+# y = 2
 
-if x < y:
-    print('x is less than y')
-elif x > y:
-    print('x is greater than y')
+# if x < y:
+#     print('x is less than y')
+# elif x > y:
+#     print('x is greater than y')
+
+# x = ''
+
+# print(not x)
+# def myfunc(a):
+#   return len(a)
+
+# x = map(myfunc, ('apple', 'banana', 'cherry'))
+
+
+
+# #convert the map into a list, for readability:
+# print(list(x))
+
