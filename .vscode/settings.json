@@ -1,7 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f53c93f00882f84365fc913ba15016b0855c4a23
 {} 
 =======
 {
-    "python.pythonPath": "C:\\Users\\OWNER\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+    "python.pythonPath": "C:\\Users\\MahonePC\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
 }
+<<<<<<< HEAD
 >>>>>>> cf65a6acd4028a1a0e0a638d2d466ae971477211
+=======
+>>>>>>> 8ce0ffa97be260ed36fe3c8fc933bcced1ac0aa3
+=======
+{
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3"
+}
+>>>>>>> 3cf732de866c243dcfb5bd09b5134a97cd617ae1
+>>>>>>> f53c93f00882f84365fc913ba15016b0855c4a23
