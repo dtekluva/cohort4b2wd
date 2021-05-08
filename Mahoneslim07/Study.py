@@ -1,33 +1,49 @@
-# #Calculating Total Amopunt Payable, Simple Interest
+#Formular that Divides
 
-# def simple_interest(P, R, T):
-#     SI = (P * R * T)/100
-#     return SI
+def the_divider_value(d1, d2):
+    D = d1//d2
+    return D
+dividend_value = d1 = int(input("Enter value of Dividend : "))
+divisor_value = d2 = int(input("Enter value of Divisor : "))
 
-# P = int(input("Enter Principal amount : "))
-# R = int(input("Enter the rate on investment : "))
-# T = int(input("Enter the duration of investment : "))
+D = the_divider_value(d1, d2)
 
-# SI = simple_interest(P, R, T)
+def remainder_value(d1, d2):
+    R = d1%d2
+    return R
+R = remainder_value(d1, d2)
 
-# print("Simple interest : {}". format(SI))
+print(f'{D} "remainder" {R}')
 
-# def total_amount_payable(SI):
-#     Profit = SI + P
-#     return Profit
-# Profit = total_amount_payable(SI)
+#Calculating Total Amopunt Payable, Simple Interest
 
-# print("Total Amount Payable :{}". format(Profit))
+def simple_interest(P, R, T):
+    SI = (P * R * T)/100
+    return SI
 
+principla_value = P = float(input("Enter Principal amount : "))
+rate_value = R = float(input("Enter the rate on investment : "))
+duration_value = T = float(input("Enter the duration of investment : "))
 
-#Formaular to aid the distribution of Sweets amongst Friends
+SI = simple_interest(P, R, T)
+
+print("Simple interest : {}". format(SI))
+
+def total_amount_payable(SI):
+    Profit = SI + P
+    return Profit
+Profit = total_amount_payable(SI)
+
+print("Total Amount Payable :{}". format(Profit))
+
+# #Formaular to aid the distribution of Sweets amongst Friends
 
 def love_sharing_formular(A, B, C):
     LSF = (A + B + C)//3
     return LSF
-A = int(input("Enter value for the first sweet brought in : "))
-B = int(input("Enter value for the Second sweet brought in : "))
-C = int(input("Enter value for the third Sweet brought in : "))
+A = float(input("Enter value for the first sweet brought in : "))
+B = float(input("Enter value for the Second sweet brought in : "))
+C = float(input("Enter value for the third Sweet brought in : "))
 
 LSF = love_sharing_formular(A, B, C)
 
@@ -36,7 +52,6 @@ def crushed_value(A, B, C):
     return Crushed
 Crushed = crushed_value(A, B, C)
 
-
-print(f'"Hello guys, Each of you should get {LSF} sweets and {Crushed} should be crushed')
+print(f'Hello guys, Each of you should get {LSF} sweets and {Crushed} should be crushed')
 
     
