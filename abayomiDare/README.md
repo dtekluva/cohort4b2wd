@@ -94,9 +94,12 @@ ralph = reversed(alph)
 for x in ralph:
   print(x)
 
-
+Simple Interest= P x R x T ÷ 100,
 
 
 
 
   https://www.w3schools.com/python/python_regex.asp
+  LOWER UPPER
+
+

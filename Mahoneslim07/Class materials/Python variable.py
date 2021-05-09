@@ -1,2 +1,0 @@
-ade = 'Boy'
-print(ade)
