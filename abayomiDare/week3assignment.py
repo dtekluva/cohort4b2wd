@@ -1,4 +1,9 @@
-# assignment 1
+# 1. Write a program that takes in 2 numbers, a dividend and a divisor and prints out the result from the division and the rremainder as such
+
+# >> Enter dividend : 7
+# >> Enter divisor : 3
+
+# >> 2 remainder 1
 
 
 user_first_input = int(input('Enter dividend:\n'))
