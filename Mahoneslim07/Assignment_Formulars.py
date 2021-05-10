@@ -15,10 +15,12 @@ R = remainder_value(d1, d2)
 
 print(f'{D} "remainder" {R}')
 
-#Calculating Total Amopunt Payable, Simple Interest
+
+
+#Calculating Total Amopunt Payable with Simple Interest
 
 def simple_interest(P, R, T):
-    SI = (P * R * T)/100
+    SI = int((P * R * T)/100)
     return SI
 
 principla_value = P = float(input("Enter Principal amount : "))
@@ -27,14 +29,14 @@ duration_value = T = float(input("Enter the duration of investment : "))
 
 SI = simple_interest(P, R, T)
 
-print("Simple interest : {}". format(SI))
+print(f"Simple interest : {SI}")
 
 def total_amount_payable(SI):
-    Profit = SI + P
+    Profit = int(SI + P)
     return Profit
 Profit = total_amount_payable(SI)
 
-print("Total Amount Payable :{}". format(Profit))
+print(f"Total Amount Payable : {Profit}")
 
 # #Formaular to aid the distribution of Sweets amongst Friends
 
@@ -48,10 +50,8 @@ C = float(input("Enter value for the third Sweet brought in : "))
 LSF = love_sharing_formular(A, B, C)
 
 def crushed_value(A, B, C):
-    Crushed = int((A + B + C)%3)
+    Crushed = int(LSF%3)
     return Crushed
 Crushed = crushed_value(A, B, C)
 
 print(f'Hello guys, Each of you should get {LSF} sweets and {Crushed if Crushed > 0 else "None"} should be crushed')
-
-    

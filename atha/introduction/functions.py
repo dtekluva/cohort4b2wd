@@ -16,22 +16,29 @@
 # print(power)
 
 
-def voltage(resistance, current):
+# def voltage(resistance, current):
 
-    voltage = int(resistance * current)
-    return voltage
+#     voltage = int(resistance * current)
+#     return voltage
 
-insert_value_resistance = resistance = float(input("Please insert value : "))
-insert_value_current = current = float(input("Please insert value : "))
-voltage = voltage(resistance, current)
+# insert_value_resistance = resistance = float(input("Please insert value : "))
+# insert_value_current = current = float(input("Please insert value : "))
+# voltage = voltage(resistance, current)
 
-def power(voltage, Current):
+# def power(voltage, Current):
 
-    power = int(voltage * Current)
-    return power
+#     power = int(voltage * Current)
+#     return power
 
-insert_value_Current = Current = float(input("Please insser vlaue : "))
-power = power(voltage, Current)
+# insert_value_Current = Current = float(input("Please insser vlaue : "))
+# power = power(voltage, Current)
 
-print(power, "watts")
-print(voltage, "volts")
+# print(power, "watts")
+# print(voltage, "volts")
+
+
+x = 6
+y = 2
+
+
+print(x /= y)
