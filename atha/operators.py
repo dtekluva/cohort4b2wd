@@ -32,3 +32,17 @@
 # x = char in text
 
 # print(f"{text}. contains '{char}' : {x}")
+
+# file_path_zzzadsdsl = r"C:\Users\kboys\OneDrive\Desktop\CLASSES\UNIVELCITY CLASSES\cohort4b2wd\materials\chike-running.txt"
+
+# file_data_not_a_keyword = open(file_path_zzzadsdsl, "r")
+
+# # print(file_data_not_a_keyword.read())
+
+# search_value = input("please enter line to search for : ")
+
+# print(file_data_not_a_keyword.read())
+# print(search_value in file_data_not_a_keyword)
+
+
+
