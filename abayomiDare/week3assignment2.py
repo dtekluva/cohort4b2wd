@@ -9,7 +9,7 @@
 def simple_interest():
     principal = input('Enter principal: ')
     rate = input('Enter rate: ')
-    time = input('Enter time: ')
+    time = input('Enter time: ')    
     try:
         principal = int(principal)
         rate = int(rate)
@@ -27,3 +27,5 @@ def simple_interest():
 
 
 print(simple_interest())
+
+

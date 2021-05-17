@@ -18,3 +18,4 @@ division = sum_up // 3
 to_be_discard = sum_up % 3
 
 print(f'HELLO GUYS, EACH OF YOU SHOULD GET {division} SWEETS AND {to_be_discard} SHOULD BE DISCARDED')
+
