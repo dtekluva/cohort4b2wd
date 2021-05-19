@@ -26,19 +26,45 @@
 # print("First name : ", first_name)
 # print("Last name : ", last_name)
 
-dob = input("Please enter dob : ")
+# dob = input("Please enter dob : ")
 
-split_dob = dob.split("-") # split every where a - is met
+# split_dob = dob.split("-") # split every where a - is met
 
-year = int(split_dob[0])
-print(year)
+# year = int(split_dob[0])
+# print(year)
 
-age = 2021 - year
+# age = 2021 - year
 
-if age >= 30:
+# if age >= 30:
 
-    print("Omo you don old oo !!!")
+#     print("Omo you don old oo !!!")
     
+# else:
+
+#     print("Omo shi ni e. !!!")
+
+
+headache = input("Please do you have a headache (t/f) : ")
+
+if headache == "t":
+
+    fever = input("Please do you have a fever (t/f) : ")
+        
+    if fever == "t":
+
+        cough = input("Please do you have a fever (t/f) : ")
+
+        if cough =="t":
+            print("Please contact NCDC")
+    
+        elif cough != "t":
+            print("I think you might have malaria")
+
+    else:
+
+        print("I tink you might just need pain relieve")
+
 else:
 
-    print("Omo shi ni e. !!!")
+    print("EE go be na ..!!!")
+
