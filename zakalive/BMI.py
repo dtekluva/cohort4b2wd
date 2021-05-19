@@ -1,11 +1,11 @@
+# BMI = kg/m^2
+
 height = float(input("Please enter height in CM :"))
 weight = float(input("Please enter weight in KG :"))
 
 # to perform calculations with the input string we convert it to float
-# BMI = kg/m^2
 
 BMI = weight / (height/100)**2
-
 print(f"YOUR BMI = {BMI}")
 
 # 18.4 or < = underweight
@@ -16,7 +16,7 @@ print(f"YOUR BMI = {BMI}")
 # 40 - ^^^^ = obesity class 3
 
 if BMI <= 18.4: 
-    print("YOU ARE UNDERWEIGHT MY GUY")
+    print("YOU NO DEY CHOP ?? YOU ARE UNDERWEIGHT MY GUY")
 elif BMI <= 24.9:
     print("YOU ARE HEALTHY")
 elif BMI <= 29.9:
@@ -26,4 +26,4 @@ elif BMI <= 34.9:
 elif BMI <= 39.9:
     print("OMOx1000!! THIS IS DANGEROUS COS YOU ARE OBESE!!")
 else:
-    print("ERROR! ERROR!! ERROR!!!") 
+    print("ERROR! ERROR!! ERROR!!! \nPROGRAM DON CRASH") 
