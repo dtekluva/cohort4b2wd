@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 40a1ccbac9a123968830717d6c5656d9da1d53d9
 {} 
@@ -18,3 +19,8 @@
 =======
 >>>>>>> 707f14e9c92f1e310727678f49048a25c7a1d1ae
 >>>>>>> 40a1ccbac9a123968830717d6c5656d9da1d53d9
+=======
+{
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.9/bin/python3"
+}
+>>>>>>> ce6a1ecc4d94a1043df44e8370f0f0882fbadc35
