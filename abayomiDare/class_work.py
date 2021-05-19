@@ -1,5 +1,3 @@
-import math
-
 
 b_input = int(input('input B:\n'))
 square_b_input = b_input ** 2
