@@ -19,6 +19,8 @@
 
 # import os
 # target_folder = input("----> ")
+# new = (f'abayomidare@abayomidare-Latitude-3570:~/Documents/{target_folder}')
+
 # files = os.listdir(f"C:/Users/kboys/Downloads/{target_folder}")
 # print(files)
 
@@ -36,5 +38,5 @@
 # # print(calendar(x, y))
 # print(calendar.calendar(2021))
 
-print(help(int))
-print(abs.__doc__)
+# print(help(int))
+# print(abs.__doc__)
