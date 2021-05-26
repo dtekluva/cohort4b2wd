@@ -5,14 +5,6 @@
 # month = time_now.month
 
 
-<<<<<<< HEAD
-=======
-# # print(time_now)
-# # print(day)
-# # print(month)
-
-# # special formatting
->>>>>>> 530f1cb2a3d889ad5603b80802f6cffedf31441c
 
 # formatted_time = time_now.strftime("%a. The - %m/%d/%Y, %H:%M:%S")
 # print(formatted_time)
