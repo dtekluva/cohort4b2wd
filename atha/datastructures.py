@@ -71,5 +71,5 @@ response = requests.get("https://api.publicapis.org/entries")
 data = response.json()
 print(data.get("count"))
 
-https://pythonanywhere.com/game/ayo/ay123009
-https://pythonanywhere.com/game/{username}/{suggested_password}
+#https://pythonanywhere.com/game/ayo/ay123009
+#https://pythonanywhere.com/game/{username}/{suggested_password}

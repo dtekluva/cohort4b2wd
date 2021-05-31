@@ -8,10 +8,34 @@
 # 3. USING EXHAUSTIVE ENUMERATION SOLVE THE IMAGE BELOW CALLED EXHAUSTIVE ENUMERATION
 
 
-num_range = range(100, 340)
+num_range = range(100000, 999999)
 
 for value in num_range:
     
-    if str(value)[-1]*3 == str(value*3):
+    if str(value)[-1]*6 == str(value*6):
 
         print(value)
+
+
+
+
+
+i = 100000
+
+while i >= 0:
+
+    # print(i)
+    i+=1
+
+    for x in num_range:
+
+        if i % 600000 == 0:
+
+            break
+        else:
+
+            continue
+
+    else:
+
+        print(i)

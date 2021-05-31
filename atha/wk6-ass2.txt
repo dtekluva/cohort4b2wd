@@ -1,4 +1,5 @@
-Write a program that take a key word, and uses to aggregate debits and credits related to that keyword and then writes the value into a new file with the name of the keyword underscore the datetime when that file was created as such:
+Write a program that take a key word, and uses to aggregate debits and credits related to that keyword and then writes the value into a 
+new file with the name of the keyword underscore the datetime when that file was created as such:
 
 e.g. 
 23-05-2021 2:14pm i run the program as such

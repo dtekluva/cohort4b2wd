@@ -1,12 +1,12 @@
-# expr = input('write a short sentence: ')
-# expr2 = expr.casefold()
-# vowels = 'aeiou'
-# count = 0
-# for vow in expr2:
+expr = input('write a short sentence: ')
+expr2 = expr.casefold()
+vowels = 'aeiou'
+count = 0
+for vow in expr2:
 
-#     if vow in vowels:
-#         count += 1
-# print(count)
+    if vow in vowels:
+        count += 1
+print(count)
 
 #or 
 
@@ -29,8 +29,18 @@
 # for vowel in dict_vow:
 #     print(f'{vowel} : {dict_vow[vowel]}')
 
-num_range = range(100,350)
+# num_range = range(100,350)
 
-for value in num_range:
-    if str(value)[-1]*3 == str(value*3):
-        print(value)
+# for value in num_range:
+#     if str(value)[-1]*3 == str(value*3):
+#         print(value)
+
+# fie_path = r'/home/abayomidare/Desktop/Univelcity/cohort4b2wd/materials/gtb_doc.csv'
+
+# open_file_path = open(fie_path, 'r')
+
+# data = open_file_path.readline()
+
+
+
+# data.split(',')
