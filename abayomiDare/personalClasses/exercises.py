@@ -1,12 +1,12 @@
-expr = input('write a short sentence: ')
-expr2 = expr.casefold()
-vowels = 'aeiou'
-count = 0
-for vow in expr2:
+# expr = input('write a short sentence: ')
+# expr2 = expr.casefold()
+# vowels = 'aeiou'
+# count = 0
+# for vow in expr2:
 
-    if vow in vowels:
-        count += 1
-print(count)
+#     if vow in vowels:
+#         count += 1
+# print(count)
 
 #or 
 
@@ -19,15 +19,17 @@ print(count)
 # for vow in expr2:
 
 #     if vow in vowels:
-        # to access the value of a particular vowel as the key
-        # dict_vow[vow] += 1
-        # count += 1
+#         #to access the value of a particular vowel as the key
+#         dict_vow[vow] += 1
+#         count += 1
 # print(dict_vow.__doc__)
+
 
 # print(f'TOTAL VOWEL => {count}')
 # print()
 # for vowel in dict_vow:
 #     print(f'{vowel} : {dict_vow[vowel]}')
+
 
 # num_range = range(100,350)
 

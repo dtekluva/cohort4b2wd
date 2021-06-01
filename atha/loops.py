@@ -75,30 +75,30 @@
 
 
 
-from sys import setprofile
 
 
-file_path = r"C:\Users\kboys\OneDrive\Desktop\CLASSES\UNIVELCITY CLASSES\cohort4b2wd\materials\statement2.csv"
 
-file = open(file_path, "r")
+# file_path = r"C:\Users\kboys\OneDrive\Desktop\CLASSES\UNIVELCITY CLASSES\cohort4b2wd\materials\statement2.csv"
 
-data = file.readlines()
+# file = open(file_path, "r")
 
-total = 0
+# data = file.readlines()
 
-for line in data:
+# total = 0
 
-    splitted_lines = line.split(",")
-    # print(splitted_lines)
+# for line in data:
 
-    debits = splitted_lines[3]
-    credits = splitted_lines[4]
-    remarks = splitted_lines[6]
-    # print(debits)
-    # print(remarks)
+#     splitted_lines = line.split(",")
+#     # print(splitted_lines)
 
-    if "Airtime" in remarks:
-        if not debits.isalnum():
-            total = total + float(debits)
+#     debits = splitted_lines[3]
+#     credits = splitted_lines[4]
+#     remarks = splitted_lines[6]
+#     # print(debits)
+#     # print(remarks)
 
-print(total)
+#     if "Airtime" in remarks:
+#         if not debits.isalnum():
+#             total = total + float(debits)
+
+# print(total)

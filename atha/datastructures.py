@@ -66,10 +66,8 @@
 
 import requests
 
-response = requests.get("https://api.publicapis.org/entries")
+response = requests.get("http://datanigeria.pythonanywhere.com/play/ayo/ay123009")
 
 data = response.json()
-print(data.get("count"))
+print(data)
 
-#https://pythonanywhere.com/game/ayo/ay123009
-#https://pythonanywhere.com/game/{username}/{suggested_password}
