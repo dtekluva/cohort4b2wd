@@ -11,3 +11,6 @@ Learn more about datetime - https://www.programiz.com/python-programming/datetim
 variables - https://realpython.com/python-variables/
 datatypes - https://realpython.com/python-data-types/
 functions - https://realpython.com/defining-your-own-python-function/
+
+dicts - https://realpython.com/python-dicts/
+list - https://realpython.com/python-lists-tuples/
