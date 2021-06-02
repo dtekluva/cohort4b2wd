@@ -66,13 +66,6 @@
 
 # import requests
 
-<<<<<<< HEAD
-response = requests.get("http://datanigeria.pythonanywhere.com/play/ayo/ay123009")
-
-data = response.json()
-print(data)
-
-=======
 # # response = requests.get("https://api.publicapis.org/entries")
 
 # # data = response.json()
@@ -213,4 +206,3 @@ print(data)
 x = {'a': 0, 'e': 0, 'i': 3, 'o': 2, 'u': 0}
 print(x["i"])# dictionaries accesed via keys
 print(x["o"])# dictionaries accesed via keys
->>>>>>> 07487c42e0e7112a78a46cc4297846f390befec0

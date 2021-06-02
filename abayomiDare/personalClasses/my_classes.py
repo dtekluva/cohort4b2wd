@@ -102,4 +102,17 @@
 #     print(f'{vowel} : {dict_vow[vowel]}')
 
 
+def f(qty, item, price):
+    print(f'{qty} {item} cost #{price}')
 
+f(10, 'apple', 500)
+
+
+# def sum(a,b,c):
+#     if a == b or b == c or c == a:
+#         print('0')
+#     else:
+#         print(f'{a + b + c}')
+
+
+# (sum(3,2,2))
