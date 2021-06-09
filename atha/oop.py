@@ -103,7 +103,7 @@
 
 folder = r"C:\Users\kboys\OneDrive\Desktop\CLASSES\UNIVELCITY CLASSES\cohort4b2wd\materials"
 
-def write_to_file( username, password):
+def sign_up( username, password):
 
     file_name = "\logins.csv"
     file = open(folder + file_name, "a")
@@ -123,7 +123,7 @@ def login( username, password):
         stored_username, stored_password = splitted_line
 
         if username == stored_username:
-            print("Corect username")
+            print("Correct username")
             # print(password , stored_password, password == stored_password)
             if password == stored_password.replace("\n", ""):
                 print("correct password")
@@ -133,5 +133,5 @@ def login( username, password):
 
 
 
-# write_to_file("ayo", "278143462")
-login("atha", "123456")
+sign_up("dtekluva", "qwerty")
+# login("dare", "124324")
